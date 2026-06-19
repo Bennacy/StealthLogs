@@ -1,0 +1,331 @@
+{
+  "questions": [
+    {
+      "id": "gender",
+      "phase": "pre_session",
+      "category": "demographics",
+      "questionText": "What gender do you identify as?",
+      "type": "Multiple_Choice",
+      "formEntry": ["entry.855097939"],
+      "options": [
+        "Female",
+        "Male",
+        "Non-binary",
+        "Prefer not to say",
+        "Other"
+      ]
+    },
+    {
+      "id": "age_range",
+      "phase": "pre_session",
+      "category": "demographics",
+      "questionText": "What is your age?",
+      "type": "Multiple_Choice",
+      "formEntry": ["entry.1495178138"],
+      "options": [
+        "Under 18",
+        "18–24",
+        "25–34",
+        "35–44",
+        "45–54",
+        "55+"
+      ]
+    },
+    {
+      "id": "education_level",
+      "phase": "pre_session",
+      "category": "demographics",
+      "questionText": "What is your level of education?",
+      "type": "Multiple_Choice",
+      "formEntry": ["entry.1292386222"],
+      "options": [
+        "Primary education",
+        "Secondary education",
+        "Bachelor's degree",
+        "Master's degree",
+        "Doctorate",
+        "Other"
+      ]
+    },
+    {
+      "id": "video_game_familiarity",
+      "phase": "pre_session",
+      "category": "gaming_experience",
+      "questionText": "How familiar are you with video games?",
+      "type": "Rating",
+      "formEntry": ["entry.1823870781"],
+      "ratingHeaders": [
+        "Not at all familiar",
+        "Slightly familiar",
+        "Moderately familiar",
+        "Very familiar",
+        "Extremely familiar"
+      ],
+      "min": 0,
+      "max": 4
+    },
+    {
+      "id": "stealth_game_familiarity",
+      "phase": "pre_session",
+      "category": "gaming_experience",
+      "questionText": "How familiar are you with stealth games?",
+      "type": "Rating",
+      "formEntry": ["entry.1070109895"],
+      "ratingHeaders": [
+        "Not at all familiar",
+        "Slightly familiar",
+        "Moderately familiar",
+        "Very familiar",
+        "Extremely familiar"
+      ],
+      "min": 0,
+      "max": 4
+    },
+    {
+      "id": "hours_played_per_week",
+      "phase": "pre_session",
+      "category": "gaming_experience",
+      "questionText": "On average, how many hours do you play video games per week?",
+      "type": "Multiple_Choice",
+      "formEntry": ["entry.1896479137"],
+      "options": [
+        "0–2 hours",
+        "3–5 hours",
+        "6–10 hours",
+        "11–20 hours",
+        "21–40 hours",
+        "40+ hours"
+      ]
+    },
+    {
+      "id": "preferred_genres",
+      "phase": "pre_session",
+      "category": "gaming_experience",
+      "questionText": "What game genres do you play most often?",
+      "type": "Checkbox",
+      "formEntry": ["entry.517527465"],
+      "options": [
+        "Stealth",
+        "Action",
+        "Shooter",
+        "RPG",
+        "Strategy",
+        "Survival Horror",
+        "Puzzle",
+        "Simulation",
+        "Other"
+      ]
+    },
+    {
+      "id": "game_development_experience",
+      "phase": "pre_session",
+      "category": "field_experience",
+      "questionText": "Have you studied anything related to game development or design in the past?",
+      "type": "Multiple_Choice",
+      "formEntry": ["entry.1241858186"],
+      "options": [
+        "Yes",
+        "No"
+      ]
+    },
+    {
+      "id": "ai_development_experience",
+      "phase": "pre_session",
+      "category": "field_experience",
+      "questionText": "Have you studied anything related to AI development in the past?",
+      "type": "Multiple_Choice",
+      "formEntry": ["entry.1445674404"],
+      "options": [
+        "Yes",
+        "No"
+      ]
+    },
+    
+    
+    
+    {
+      "id": "perceived_awareness",
+      "phase": "post_run",
+      "category": "perceived_intelligence",
+      "questionText": "The AI agents appeared to be aware of their environment.",
+      "type": "Rating",
+      "formEntry": [
+        "entry.75569363",
+        "entry.1426517769",
+        "entry.283940779",
+        "entry.1665147280"
+      ],
+      "ratingHeaders": [
+        "Strongly disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly agree"
+      ],
+      "min": 0,
+      "max": 4
+    },
+    {
+      "id": "behavior_predictability",
+      "phase": "post_run",
+      "category": "readability",
+      "questionText": "I was able to predict how the AI agents would react to my actions.",
+      "type": "Rating",
+      "formEntry": [
+        "entry.99662922",
+        "entry.453622890",
+        "entry.1464872096",
+        "entry.1797205158"
+      ],
+      "ratingHeaders": [
+        "Strongly disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly agree"
+      ],
+      "min": 0,
+      "max": 4
+    },
+    {
+      "id": "behavior_consistency",
+      "phase": "post_run",
+      "category": "readability",
+      "questionText": "The AI behavior followed understandable patterns.",
+      "type": "Rating",
+      "formEntry": [
+        "entry.218987084",
+        "entry.617519477",
+        "entry.619853342",
+        "entry.1620789837"
+      ],
+      "ratingHeaders": [
+        "Strongly disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly agree"
+      ],
+      "min": 0,
+      "max": 4
+    },
+    {
+      "id": "behavior_naturalness",
+      "phase": "post_run",
+      "category": "believability",
+      "questionText": "The AI behavior felt natural rather than scripted.",
+      "type": "Rating",
+      "formEntry": [
+        "entry.1033828178",
+        "entry.383093550",
+        "entry.468902190",
+        "entry.535326778"
+      ],
+      "ratingHeaders": [
+        "Strongly disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly agree"
+      ],
+      "min": 0,
+      "max": 4
+    },
+    {
+      "id": "direct_reactivity",
+      "phase": "post_run",
+      "category": "reactivity",
+      "questionText": "The AI agents reacted directly to my actions.",
+      "type": "Rating",
+      "formEntry": [
+        "entry.588620934",
+        "entry.643259307",
+        "entry.547409144",
+        "entry.956009056"
+      ],
+      "ratingHeaders": [
+        "Strongly disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly agree"
+      ],
+      "min": 0,
+      "max": 4
+    },
+    {
+      "id": "unfair_information_access",
+      "phase": "post_run",
+      "category": "fairness",
+      "questionText": "Sometimes the AI had access to information it should not have had.",
+      "type": "Rating",
+      "formEntry": [
+        "entry.1592117993",
+        "entry.1405411677",
+        "entry.1237431871",
+        "entry.130826499"
+      ],
+      "ratingHeaders": [
+        "Strongly disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly agree"
+      ],
+      "min": 0,
+      "max": 4
+    },
+    
+    
+    
+    {
+      "id": "meaningful_ai_differences",
+      "phase": "post_session",
+      "category": "final_questions",
+      "questionText": "Across all runs, I noticed meaningful differences in AI behavior.",
+      "type": "Rating",
+      "formEntry": ["entry.526498510"],
+      "ratingHeaders": [
+        "Strongly disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly agree"
+      ],
+      "min": 0,
+      "max": 4
+    },
+    {
+      "id": "final_ai_satisfaction",
+      "phase": "post_session",
+      "category": "final_questions",
+      "questionText": "The final AI system felt satisfying to play.",
+      "type": "Rating",
+      "formEntry": ["entry.1811128543"],
+      "ratingHeaders": [
+        "Strongly disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly agree"
+      ],
+      "min": 0,
+      "max": 4
+    },
+    {
+      "id": "most_believable_run",
+      "phase": "post_session",
+      "category": "final_questions",
+      "questionText": "Which run had the most believable AI behavior?",
+      "type": "Multiple_Choice",
+      "formEntry": ["entry.270970729"],
+      "options": [
+        "Level 1",
+        "Level 2",
+        "Level 3",
+        "Level 4",
+        "None"
+      ]
+    }
+  ]
+}
